@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdlib.h>
+#include "../Libraries/myFunctions.h"
+
+
+
+
+bool isEven = isEvenFunct(2);{
+    // if (isEven){
+
+    //     printf("Is Even \n");
+    // }
+    // else {
+    //       printf("Is not Even \n");
+    // }
+    int varA = 5;
+    int varB = 7;
+printf("      ------ Before SWAP ------ \n\n varA= %d ..... varB= %d\n", varA, varB );
+swap(&varA, &varB);
+printf("      ------ After SWAP ------ \n\n varA= %d ..... varB= %d\n", varA, varB );
+    return 0;
+}
